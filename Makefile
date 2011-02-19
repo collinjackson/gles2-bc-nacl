@@ -91,4 +91,4 @@ endif
 clean:
 	rm -rf out
 
-.PHONY: all clean es1 es2
+.PHONY: all clean es1demo es2demo
