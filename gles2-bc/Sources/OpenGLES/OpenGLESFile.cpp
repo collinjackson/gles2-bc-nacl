@@ -22,10 +22,8 @@ using namespace OpenGLES;
 
 OpenGLESFile::OpenGLESFile(std::string n) : name()
 {
-	NSString *stringFromChar = [NSString stringWithCString:n.c_str() length:strlen(n.c_str())];
-	NSString * path = [[NSBundle mainBundle] pathForResource: stringFromChar ofType: nil];
-	const char *filename = (const char*)[path cStringUsingEncoding:1];
-	name = filename;
+	name.assign("gles2-bc/Sources/OpenGLES/OpenGLES20/shaders/");
+	name.append(n);
 }
 
 bool OpenGLESFile::open() 
