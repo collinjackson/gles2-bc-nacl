@@ -1,0 +1,1541 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 45;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1A9D54BCDF6ACAF5E9AA6C39 /* All */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 393D0BB26281BAB0E2F818B6 /* Build configuration list for PBXAggregateTarget "All" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D0D598F19504A1534C99EF53 /* PBXTargetDependency */,
+				EF23F26E1F1676412C08332E /* PBXTargetDependency */,
+				06D04883D398A6F7ADC43771 /* PBXTargetDependency */,
+				A9018875C23A921CFAC19FD3 /* PBXTargetDependency */,
+				303A66777050D957320FE294 /* PBXTargetDependency */,
+				6AF98481054D9B14733E324F /* PBXTargetDependency */,
+				4C5E07FB16EDD4C17C6B228C /* PBXTargetDependency */,
+				C28E692F62DCA2C5453C06A2 /* PBXTargetDependency */,
+			);
+			name = All;
+			productName = All;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		085FAD0BD058155482E0E41B /* Simple_TextureCubemap.c in Sources */ = {isa = PBXBuildFile; fileRef = B0211EB5AE0C62972BA437BE /* Simple_TextureCubemap.c */; };
+		10D65F3ECB5229A51E370544 /* TextureWrap.c in Sources */ = {isa = PBXBuildFile; fileRef = 9B3C683B30EF7E41BAB71091 /* TextureWrap.c */; };
+		17D56B246C7B2DA2EC588045 /* esUtil.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A668E83099B35DF2B61F978 /* esUtil.c */; };
+		411EF2FF3C7F4080469B3C7F /* Simple_Texture2D.c in Sources */ = {isa = PBXBuildFile; fileRef = 56A14F0DC74D75E208295CB7 /* Simple_Texture2D.c */; };
+		4A229C07F1D3534A5695729F /* MipMap2D.c in Sources */ = {isa = PBXBuildFile; fileRef = 6ACF348E1A7D7C1CA6C747F7 /* MipMap2D.c */; };
+		50649A358BF72E473AB7A22D /* Stencil_Test.c in Sources */ = {isa = PBXBuildFile; fileRef = B3F0168F73FBA779D7B38380 /* Stencil_Test.c */; };
+		B13A401C014B5E0D1502CD9B /* Hello_Triangle.c in Sources */ = {isa = PBXBuildFile; fileRef = 40D082FDFD4D8E22E52D715E /* Hello_Triangle.c */; };
+		E4489F0171DDC54B04412846 /* esShapes.c in Sources */ = {isa = PBXBuildFile; fileRef = 0B0FC49958BF9F0EBC7A8D9B /* esShapes.c */; };
+		F22883AE45636E56DEA5804E /* esTransform.c in Sources */ = {isa = PBXBuildFile; fileRef = F39EFB3A942F5CBBD9F6786C /* esTransform.c */; };
+		F78B7FDFFEC3ADEACF9296EC /* esShader.c in Sources */ = {isa = PBXBuildFile; fileRef = BB9B893AB9F93EDA734AECBC /* esShader.c */; };
+		FA246B10184643711B77820B /* Simple_VertexShader.c in Sources */ = {isa = PBXBuildFile; fileRef = EA2494E93BDDF9CAADB9A55B /* Simple_VertexShader.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		07F5358360B13B0DFEE5108E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398FC3E645B7E05DF9E422C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 81AF1C4201A480562F965CC9;
+			remoteInfo = texture_wrap;
+		};
+		54A51D73367C91468F584779 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398FC3E645B7E05DF9E422C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BD2B1CB953E8510211907371;
+			remoteInfo = es_util;
+		};
+		5BF8B5F3510FF0916AAE27AC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398FC3E645B7E05DF9E422C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1607A61E8EAD407E6F430C77;
+			remoteInfo = mip_map_2d;
+		};
+		C5ABC260CF1ACD697C02FFE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398FC3E645B7E05DF9E422C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 556CF7A87C8D76A2CB07C5CC;
+			remoteInfo = hello_triangle;
+		};
+		CC6665E53BD056BA7D953A23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398FC3E645B7E05DF9E422C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4BC582833439C61367524351;
+			remoteInfo = simple_vertex_shader;
+		};
+		F077A5CD21063A0A80E7B28E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398FC3E645B7E05DF9E422C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C79B7A88FEB45B67CE1D2B39;
+			remoteInfo = simple_texture_2d;
+		};
+		FA53A03599435D5AFB9BDF74 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398FC3E645B7E05DF9E422C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4C6146FE3E357D24D4503BA;
+			remoteInfo = stencil_test;
+		};
+		FD8DE0F161891EE6572432C2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 398FC3E645B7E05DF9E422C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 07263F5C9A517960DF009E3D;
+			remoteInfo = simple_texture_cubemap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00A9B1A8C391E439811DF874 /* Hello_Triangle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Hello_Triangle.h; sourceTree = "<group>"; };
+		06917AABFFD0D61229AB5BF0 /* common.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = common.gypi; path = ../../build/common.gypi; sourceTree = "<group>"; };
+		07C10A8FF11270FB6FCD352E /* libmip_map_2d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libmip_map_2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B0FC49958BF9F0EBC7A8D9B /* esShapes.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = esShapes.c; sourceTree = "<group>"; };
+		0C806A22182EE30675EDF225 /* release_impl_official.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_impl_official.gypi; path = ../../build/internal/release_impl_official.gypi; sourceTree = "<group>"; };
+		1E55C78842A8F339A7DE750F /* release_impl.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_impl.gypi; path = ../../build/internal/release_impl.gypi; sourceTree = "<group>"; };
+		2ED8EEB78D9394E6841A1724 /* Simple_TextureCubemap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_TextureCubemap.h; sourceTree = "<group>"; };
+		409A0F0F14B90DA47CEBBC10 /* libhello_triangle.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libhello_triangle.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		40D082FDFD4D8E22E52D715E /* Hello_Triangle.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Hello_Triangle.c; sourceTree = "<group>"; };
+		48C6B4A126A8DAB8632B215C /* Simple_VertexShader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_VertexShader.h; sourceTree = "<group>"; };
+		4E5C29D8E1B8A66598BA125D /* release_defaults.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release_defaults.gypi; path = ../../build/internal/release_defaults.gypi; sourceTree = "<group>"; };
+		529AC4CC5C1AA63DD42D90D6 /* libtexture_wrap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libtexture_wrap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		56A14F0DC74D75E208295CB7 /* Simple_Texture2D.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Simple_Texture2D.c; sourceTree = "<group>"; };
+		5E0D255A5A8AFADBBAFF0CD4 /* Simple_Texture2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Simple_Texture2D.h; sourceTree = "<group>"; };
+		66CEE4B2860362D44FB9EB8A /* libstencil_test.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libstencil_test.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A668E83099B35DF2B61F978 /* esUtil.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = esUtil.c; sourceTree = "<group>"; };
+		6AC42EBFC9C92C0021BD9C85 /* libsimple_texture_2d.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsimple_texture_2d.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		6ACF348E1A7D7C1CA6C747F7 /* MipMap2D.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = MipMap2D.c; sourceTree = "<group>"; };
+		727647201DE75DED1DEE8154 /* gles2_book.gyp */ = {isa = PBXFileReference; lastKnownFileType = text; path = gles2_book.gyp; sourceTree = "<group>"; };
+		8141D17C34BED32BB90A203B /* libes_util.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libes_util.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		891E46BDE9A285131F481024 /* libsimple_texture_cubemap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsimple_texture_cubemap.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B3C683B30EF7E41BAB71091 /* TextureWrap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = TextureWrap.c; sourceTree = "<group>"; };
+		A055652BEDB08BD71D26CD73 /* MipMap2D.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MipMap2D.h; sourceTree = "<group>"; };
+		A1B64BF339EB9D084CA7E951 /* features_override.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = features_override.gypi; path = ../../build/features_override.gypi; sourceTree = "<group>"; };
+		B0211EB5AE0C62972BA437BE /* Simple_TextureCubemap.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Simple_TextureCubemap.c; sourceTree = "<group>"; };
+		B3F0168F73FBA779D7B38380 /* Stencil_Test.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Stencil_Test.c; sourceTree = "<group>"; };
+		B5141BD43F7211F3BE3155AE /* TextureWrap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextureWrap.h; sourceTree = "<group>"; };
+		BB9B893AB9F93EDA734AECBC /* esShader.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = esShader.c; sourceTree = "<group>"; };
+		C665CE87F122522997A42206 /* Stencil_Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Stencil_Test.h; sourceTree = "<group>"; };
+		D27CC72856A28F7B5DB7D981 /* esUtil_win.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = esUtil_win.h; sourceTree = "<group>"; };
+		E684FB7EA0E0A9270873C203 /* libsimple_vertex_shader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libsimple_vertex_shader.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2494E93BDDF9CAADB9A55B /* Simple_VertexShader.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Simple_VertexShader.c; sourceTree = "<group>"; };
+		F39EFB3A942F5CBBD9F6786C /* esTransform.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = esTransform.c; sourceTree = "<group>"; };
+		F9388A5E7AAF231A403F3DC3 /* esUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = esUtil.h; sourceTree = "<group>"; };
+		FD16AFB05B3B9854A643E9E0 /* release.gypi */ = {isa = PBXFileReference; lastKnownFileType = text; name = release.gypi; path = ../../build/release.gypi; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3D65E27EAECBEC2792E25DBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4F063FBC0975E829BABCA70B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		710E897F85BFD91242D930CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		749BDFF3606F71E45F0F859B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		820CFD0C5AB2AB6D866B8F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91F71F08FB72A3CE505E8801 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BEDC1E39460D44A136D6086E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF1AA60D67577B502BE81632 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D8B1314FB439E3A4F3F4678 /* Chapter_2/Hello_Triangle */ = {
+			isa = PBXGroup;
+			children = (
+				40D082FDFD4D8E22E52D715E /* Hello_Triangle.c */,
+				00A9B1A8C391E439811DF874 /* Hello_Triangle.h */,
+			);
+			path = Chapter_2/Hello_Triangle;
+			sourceTree = "<group>";
+		};
+		1FA2A8AAAD266FBBA1E90CD8 /* Build */ = {
+			isa = PBXGroup;
+			children = (
+				06917AABFFD0D61229AB5BF0 /* common.gypi */,
+				A1B64BF339EB9D084CA7E951 /* features_override.gypi */,
+				727647201DE75DED1DEE8154 /* gles2_book.gyp */,
+				FD16AFB05B3B9854A643E9E0 /* release.gypi */,
+				4E5C29D8E1B8A66598BA125D /* release_defaults.gypi */,
+				1E55C78842A8F339A7DE750F /* release_impl.gypi */,
+				0C806A22182EE30675EDF225 /* release_impl_official.gypi */,
+			);
+			name = Build;
+			sourceTree = "<group>";
+		};
+		2CB727EA2B947A5E120E6F24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8141D17C34BED32BB90A203B /* libes_util.a */,
+				409A0F0F14B90DA47CEBBC10 /* libhello_triangle.a */,
+				07C10A8FF11270FB6FCD352E /* libmip_map_2d.a */,
+				6AC42EBFC9C92C0021BD9C85 /* libsimple_texture_2d.a */,
+				891E46BDE9A285131F481024 /* libsimple_texture_cubemap.a */,
+				E684FB7EA0E0A9270873C203 /* libsimple_vertex_shader.a */,
+				66CEE4B2860362D44FB9EB8A /* libstencil_test.a */,
+				529AC4CC5C1AA63DD42D90D6 /* libtexture_wrap.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		36F884C958179CA2D16E9C25 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4BAC6A31436AF7E1A2847B52 /* Include */,
+				F4681653C65426F8E2A1EDB3 /* Source */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4BAC6A31436AF7E1A2847B52 /* Include */ = {
+			isa = PBXGroup;
+			children = (
+				F9388A5E7AAF231A403F3DC3 /* esUtil.h */,
+				D27CC72856A28F7B5DB7D981 /* esUtil_win.h */,
+			);
+			path = Include;
+			sourceTree = "<group>";
+		};
+		6091EEBB39666573E605F65C /* Simple_Texture2D */ = {
+			isa = PBXGroup;
+			children = (
+				56A14F0DC74D75E208295CB7 /* Simple_Texture2D.c */,
+				5E0D255A5A8AFADBBAFF0CD4 /* Simple_Texture2D.h */,
+			);
+			path = Simple_Texture2D;
+			sourceTree = "<group>";
+		};
+		828686A77E2ED44EB7ECAA66 /* MipMap2D */ = {
+			isa = PBXGroup;
+			children = (
+				6ACF348E1A7D7C1CA6C747F7 /* MipMap2D.c */,
+				A055652BEDB08BD71D26CD73 /* MipMap2D.h */,
+			);
+			path = MipMap2D;
+			sourceTree = "<group>";
+		};
+		88763EAF1AB055621FBFCDB9 /* TextureWrap */ = {
+			isa = PBXGroup;
+			children = (
+				9B3C683B30EF7E41BAB71091 /* TextureWrap.c */,
+				B5141BD43F7211F3BE3155AE /* TextureWrap.h */,
+			);
+			path = TextureWrap;
+			sourceTree = "<group>";
+		};
+		A1D9528F05EB7DBEB657DA4A = {
+			isa = PBXGroup;
+			children = (
+				EE1CE7A191703FA1D43C4CBC /* Source */,
+				2CB727EA2B947A5E120E6F24 /* Products */,
+				1FA2A8AAAD266FBBA1E90CD8 /* Build */,
+			);
+			sourceTree = "<group>";
+		};
+		CA8F203E33422EE8E583B438 /* Simple_TextureCubemap */ = {
+			isa = PBXGroup;
+			children = (
+				B0211EB5AE0C62972BA437BE /* Simple_TextureCubemap.c */,
+				2ED8EEB78D9394E6841A1724 /* Simple_TextureCubemap.h */,
+			);
+			path = Simple_TextureCubemap;
+			sourceTree = "<group>";
+		};
+		DCD5920522A5980EF659DA81 /* Chapter_8/Simple_VertexShader */ = {
+			isa = PBXGroup;
+			children = (
+				EA2494E93BDDF9CAADB9A55B /* Simple_VertexShader.c */,
+				48C6B4A126A8DAB8632B215C /* Simple_VertexShader.h */,
+			);
+			path = Chapter_8/Simple_VertexShader;
+			sourceTree = "<group>";
+		};
+		E0A604881331D8D6C82E04A2 /* Chapter_11/Stencil_Test */ = {
+			isa = PBXGroup;
+			children = (
+				B3F0168F73FBA779D7B38380 /* Stencil_Test.c */,
+				C665CE87F122522997A42206 /* Stencil_Test.h */,
+			);
+			path = Chapter_11/Stencil_Test;
+			sourceTree = "<group>";
+		};
+		EC062959EBD55B8A54DCF126 /* Chapter_9 */ = {
+			isa = PBXGroup;
+			children = (
+				828686A77E2ED44EB7ECAA66 /* MipMap2D */,
+				6091EEBB39666573E605F65C /* Simple_Texture2D */,
+				CA8F203E33422EE8E583B438 /* Simple_TextureCubemap */,
+				88763EAF1AB055621FBFCDB9 /* TextureWrap */,
+			);
+			path = Chapter_9;
+			sourceTree = "<group>";
+		};
+		EE1CE7A191703FA1D43C4CBC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				E0A604881331D8D6C82E04A2 /* Chapter_11/Stencil_Test */,
+				1D8B1314FB439E3A4F3F4678 /* Chapter_2/Hello_Triangle */,
+				DCD5920522A5980EF659DA81 /* Chapter_8/Simple_VertexShader */,
+				EC062959EBD55B8A54DCF126 /* Chapter_9 */,
+				36F884C958179CA2D16E9C25 /* Common */,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		F4681653C65426F8E2A1EDB3 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BB9B893AB9F93EDA734AECBC /* esShader.c */,
+				0B0FC49958BF9F0EBC7A8D9B /* esShapes.c */,
+				F39EFB3A942F5CBBD9F6786C /* esTransform.c */,
+				6A668E83099B35DF2B61F978 /* esUtil.c */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07263F5C9A517960DF009E3D /* simple_texture_cubemap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 558A71A5E2F932C864918438 /* Build configuration list for PBXNativeTarget "simple_texture_cubemap" */;
+			buildPhases = (
+				A6B7E7268BAA4FE839D7E6A3 /* Sources */,
+				3D65E27EAECBEC2792E25DBF /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simple_texture_cubemap;
+			productName = simple_texture_cubemap;
+			productReference = 891E46BDE9A285131F481024 /* libsimple_texture_cubemap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1607A61E8EAD407E6F430C77 /* mip_map_2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9912102CE1EEB185E288C67D /* Build configuration list for PBXNativeTarget "mip_map_2d" */;
+			buildPhases = (
+				CE1926587B3531DBC7C4AB7D /* Sources */,
+				CF1AA60D67577B502BE81632 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mip_map_2d;
+			productName = mip_map_2d;
+			productReference = 07C10A8FF11270FB6FCD352E /* libmip_map_2d.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		4BC582833439C61367524351 /* simple_vertex_shader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F67A14D4012187B3813758F3 /* Build configuration list for PBXNativeTarget "simple_vertex_shader" */;
+			buildPhases = (
+				480B10123FA9E2EA17EB2240 /* Sources */,
+				820CFD0C5AB2AB6D866B8F21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simple_vertex_shader;
+			productName = simple_vertex_shader;
+			productReference = E684FB7EA0E0A9270873C203 /* libsimple_vertex_shader.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		556CF7A87C8D76A2CB07C5CC /* hello_triangle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E94C5227A5FBD6D6BD2E1ED /* Build configuration list for PBXNativeTarget "hello_triangle" */;
+			buildPhases = (
+				FC4FFA438653D9F093E108C6 /* Sources */,
+				91F71F08FB72A3CE505E8801 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hello_triangle;
+			productName = hello_triangle;
+			productReference = 409A0F0F14B90DA47CEBBC10 /* libhello_triangle.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		81AF1C4201A480562F965CC9 /* texture_wrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 803C65F58B1192762FFC0FBC /* Build configuration list for PBXNativeTarget "texture_wrap" */;
+			buildPhases = (
+				AA2E6353180429CCA3B23B8D /* Sources */,
+				4F063FBC0975E829BABCA70B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = texture_wrap;
+			productName = texture_wrap;
+			productReference = 529AC4CC5C1AA63DD42D90D6 /* libtexture_wrap.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BD2B1CB953E8510211907371 /* es_util */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B3F9BBE7E7E4C347A4ECFB06 /* Build configuration list for PBXNativeTarget "es_util" */;
+			buildPhases = (
+				E59312504AD8B5A8C6F9C2F1 /* Sources */,
+				BEDC1E39460D44A136D6086E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = es_util;
+			productName = es_util;
+			productReference = 8141D17C34BED32BB90A203B /* libes_util.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C79B7A88FEB45B67CE1D2B39 /* simple_texture_2d */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 112D5ADA18553FCD984BB825 /* Build configuration list for PBXNativeTarget "simple_texture_2d" */;
+			buildPhases = (
+				704FEC5CF4A4D0CA577D7BE0 /* Sources */,
+				749BDFF3606F71E45F0F859B /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = simple_texture_2d;
+			productName = simple_texture_2d;
+			productReference = 6AC42EBFC9C92C0021BD9C85 /* libsimple_texture_2d.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F4C6146FE3E357D24D4503BA /* stencil_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C724DB4078496EB3BEFEDBD /* Build configuration list for PBXNativeTarget "stencil_test" */;
+			buildPhases = (
+				9D90A4C8751D379E53EF53D2 /* Sources */,
+				710E897F85BFD91242D930CB /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stencil_test;
+			productName = stencil_test;
+			productReference = 66CEE4B2860362D44FB9EB8A /* libstencil_test.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		398FC3E645B7E05DF9E422C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = 61186978BDCE74D40480D440 /* Build configuration list for PBXProject "gles2_book" */;
+			compatibilityVersion = "Xcode 3.1";
+			hasScannedForEncodings = 1;
+			mainGroup = A1D9528F05EB7DBEB657DA4A;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A9D54BCDF6ACAF5E9AA6C39 /* All */,
+				BD2B1CB953E8510211907371 /* es_util */,
+				556CF7A87C8D76A2CB07C5CC /* hello_triangle */,
+				1607A61E8EAD407E6F430C77 /* mip_map_2d */,
+				C79B7A88FEB45B67CE1D2B39 /* simple_texture_2d */,
+				07263F5C9A517960DF009E3D /* simple_texture_cubemap */,
+				4BC582833439C61367524351 /* simple_vertex_shader */,
+				F4C6146FE3E357D24D4503BA /* stencil_test */,
+				81AF1C4201A480562F965CC9 /* texture_wrap */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		480B10123FA9E2EA17EB2240 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA246B10184643711B77820B /* Simple_VertexShader.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		704FEC5CF4A4D0CA577D7BE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				411EF2FF3C7F4080469B3C7F /* Simple_Texture2D.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D90A4C8751D379E53EF53D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50649A358BF72E473AB7A22D /* Stencil_Test.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A6B7E7268BAA4FE839D7E6A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				085FAD0BD058155482E0E41B /* Simple_TextureCubemap.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AA2E6353180429CCA3B23B8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10D65F3ECB5229A51E370544 /* TextureWrap.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE1926587B3531DBC7C4AB7D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A229C07F1D3534A5695729F /* MipMap2D.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E59312504AD8B5A8C6F9C2F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F78B7FDFFEC3ADEACF9296EC /* esShader.c in Sources */,
+				E4489F0171DDC54B04412846 /* esShapes.c in Sources */,
+				F22883AE45636E56DEA5804E /* esTransform.c in Sources */,
+				17D56B246C7B2DA2EC588045 /* esUtil.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4FFA438653D9F093E108C6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13A401C014B5E0D1502CD9B /* Hello_Triangle.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06D04883D398A6F7ADC43771 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1607A61E8EAD407E6F430C77 /* mip_map_2d */;
+			targetProxy = 5BF8B5F3510FF0916AAE27AC /* PBXContainerItemProxy */;
+		};
+		303A66777050D957320FE294 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 07263F5C9A517960DF009E3D /* simple_texture_cubemap */;
+			targetProxy = FD8DE0F161891EE6572432C2 /* PBXContainerItemProxy */;
+		};
+		4C5E07FB16EDD4C17C6B228C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4C6146FE3E357D24D4503BA /* stencil_test */;
+			targetProxy = FA53A03599435D5AFB9BDF74 /* PBXContainerItemProxy */;
+		};
+		6AF98481054D9B14733E324F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4BC582833439C61367524351 /* simple_vertex_shader */;
+			targetProxy = CC6665E53BD056BA7D953A23 /* PBXContainerItemProxy */;
+		};
+		A9018875C23A921CFAC19FD3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C79B7A88FEB45B67CE1D2B39 /* simple_texture_2d */;
+			targetProxy = F077A5CD21063A0A80E7B28E /* PBXContainerItemProxy */;
+		};
+		C28E692F62DCA2C5453C06A2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 81AF1C4201A480562F965CC9 /* texture_wrap */;
+			targetProxy = 07F5358360B13B0DFEE5108E /* PBXContainerItemProxy */;
+		};
+		D0D598F19504A1534C99EF53 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BD2B1CB953E8510211907371 /* es_util */;
+			targetProxy = 54A51D73367C91468F584779 /* PBXContainerItemProxy */;
+		};
+		EF23F26E1F1676412C08332E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 556CF7A87C8D76A2CB07C5CC /* hello_triangle */;
+			targetProxy = C5ABC260CF1ACD697C02FFE0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		13CD644DCA1CB912356533B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Debug;
+		};
+		1F92674D68CDFA8CD5264796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = stencil_test;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		22181B3BCDA1C49FF3738A92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = es_util;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+		26A9810AB9AB1BA40B894256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = es_util;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		44A431EBB3D15B31816454AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = macosx10.5;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SYMROOT = ../../xcodebuild;
+			};
+			name = Release;
+		};
+		6AA33523599E41AFCC20D765 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = simple_vertex_shader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		8012A896B8B8ECBB5C84CD67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = hello_triangle;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+		8A66F809B2F787AEFDAAAE4D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = simple_texture_2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		94291C8C4B95100838E08379 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = texture_wrap;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+		982291DE50E7F3CD49A4F18B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = simple_texture_cubemap;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+		A77D95E9EF45DBBEED0DA3E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = mip_map_2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		ABEC08452BB5A7BB6FA2BFCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = hello_triangle;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		BD9F90F880C7659B1E1DB7A9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = simple_texture_2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+		C189BEF9DF249FA0B1A31E3A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = mip_map_2d;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+		CBF484776CEAB53DAF4A68C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = stencil_test;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+		D7208B8FF16E74C06D7F2256 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = simple_texture_cubemap;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		F340F8D7D632BD1E07297525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=1\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = texture_wrap;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Debug;
+		};
+		F782DB3916CF0BA6F6481D43 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INTERMEDIATE_DIR = "$(PROJECT_DERIVED_FILE_DIR)/$(CONFIGURATION)";
+				SDKROOT = macosx10.5;
+				SHARED_INTERMEDIATE_DIR = "$(SYMROOT)/DerivedSources/$(CONFIGURATION)";
+				SYMROOT = ../../xcodebuild;
+			};
+			name = Debug;
+		};
+		FCF36E91EB09E49741B8420F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = All;
+			};
+			name = Release;
+		};
+		FF3CD8438EEAF0705C1F5C0F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DEAD_CODE_STRIPPING = YES;
+				EXECUTABLE_PREFIX = lib;
+				GCC_CW_ASM_SYNTAX = NO;
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_CPP_EXCEPTIONS = NO;
+				GCC_ENABLE_CPP_RTTI = NO;
+				GCC_ENABLE_PASCAL_STRINGS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_OBJC_CALL_CXX_CDTORS = YES;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"\"CHROMIUM_BUILD\"",
+					"\"ENABLE_REMOTING=1\"",
+					"\"ENABLE_GPU=1\"",
+					"\"NDEBUG\"",
+					"\"NVALGRIND\"",
+					"\"DYNAMIC_ANNOTATIONS_ENABLED=0\"",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_THREADSAFE_STATICS = NO;
+				GCC_TREAT_WARNINGS_AS_ERRORS = NO;
+				GCC_VERSION = 4.2;
+				GCC_WARN_ABOUT_MISSING_NEWLINE = YES;
+				HEADER_SEARCH_PATHS = (
+					Common/Include,
+					../../gpu,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				OTHER_CFLAGS = "";
+				PREBINDING = NO;
+				PRODUCT_NAME = simple_vertex_shader;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wendif-labels",
+					"-Wno-unused-parameter",
+					"-Wno-missing-field-initializers",
+				);
+				WARNING_CFLAGS_excluded = (
+					"-Wall",
+					"-Wextra",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C724DB4078496EB3BEFEDBD /* Build configuration list for PBXNativeTarget "stencil_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F92674D68CDFA8CD5264796 /* Debug */,
+				CBF484776CEAB53DAF4A68C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		112D5ADA18553FCD984BB825 /* Build configuration list for PBXNativeTarget "simple_texture_2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A66F809B2F787AEFDAAAE4D /* Debug */,
+				BD9F90F880C7659B1E1DB7A9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		1E94C5227A5FBD6D6BD2E1ED /* Build configuration list for PBXNativeTarget "hello_triangle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABEC08452BB5A7BB6FA2BFCD /* Debug */,
+				8012A896B8B8ECBB5C84CD67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		393D0BB26281BAB0E2F818B6 /* Build configuration list for PBXAggregateTarget "All" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				13CD644DCA1CB912356533B5 /* Debug */,
+				FCF36E91EB09E49741B8420F /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		558A71A5E2F932C864918438 /* Build configuration list for PBXNativeTarget "simple_texture_cubemap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7208B8FF16E74C06D7F2256 /* Debug */,
+				982291DE50E7F3CD49A4F18B /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		61186978BDCE74D40480D440 /* Build configuration list for PBXProject "gles2_book" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F782DB3916CF0BA6F6481D43 /* Debug */,
+				44A431EBB3D15B31816454AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		803C65F58B1192762FFC0FBC /* Build configuration list for PBXNativeTarget "texture_wrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F340F8D7D632BD1E07297525 /* Debug */,
+				94291C8C4B95100838E08379 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		9912102CE1EEB185E288C67D /* Build configuration list for PBXNativeTarget "mip_map_2d" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A77D95E9EF45DBBEED0DA3E6 /* Debug */,
+				C189BEF9DF249FA0B1A31E3A /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		B3F9BBE7E7E4C347A4ECFB06 /* Build configuration list for PBXNativeTarget "es_util" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				26A9810AB9AB1BA40B894256 /* Debug */,
+				22181B3BCDA1C49FF3738A92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+		F67A14D4012187B3813758F3 /* Build configuration list for PBXNativeTarget "simple_vertex_shader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AA33523599E41AFCC20D765 /* Debug */,
+				FF3CD8438EEAF0705C1F5C0F /* Release */,
+			);
+			defaultConfigurationIsVisible = 1;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 398FC3E645B7E05DF9E422C9 /* Project object */;
+}
